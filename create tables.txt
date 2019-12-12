@@ -66,3 +66,25 @@ create table order_status
 status nvarchar(30) not null)
 
 alter table order_status add constraint pk_status primary key (id)
+
+
+
+create table warehouse
+(id int not null,
+street nvarchar(30) not null,
+house int not null)
+
+alter table warehouse add constraint pk_warehouse primary key (id)
+
+create table province
+(id int not null, 
+name nvarchar(30) not null)
+
+alter table province add constraint pk_province primary key (id)
+
+create table city
+(id int not null,
+name nvarchar(30) not null,
+id_province int not null)
+
+alter table city add constraint pk_city primary key (id)
