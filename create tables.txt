@@ -1,0 +1,68 @@
+create DATABASE onlineshop_2019
+go
+
+USE onlineshop_2019
+go
+
+create table product
+(id int not null,
+id_manufacturer int not null,
+id_category int not null,
+name nvarchar(30) not null,
+material nvarchar(30) not null,
+width nvarchar(30) not null,
+height nvarchar(30) not null,
+product_length nvarchar(30) not null,
+price nvarchar(30) not null)
+
+alter table product add constraint pk_product primary key (id)
+
+
+create table discounts 
+(code int not null, 
+new_price int not null,
+start_date1 nvarchar(30) not null,
+expixy_date nvarchar(30) not null,
+id_product int not null)
+
+alter table discounts add constraint pk_discounts primary key (code)
+
+create table country
+(id int not null,
+name nvarchar(59) not null)
+
+alter table country add constraint pk_country primary key (id)
+
+create table manufacturer
+(id int not null,
+name nvarchar(59) not null,
+phone text not null,
+id_country int not null)
+
+alter table manufacturer add constraint pk_manufacturer primary key (id)
+
+create table category
+(id int not null,
+name nvarchar(30) not null)
+
+alter table category add constraint pk_category primary key (id)
+
+create table order_list
+(id int not null primary key,
+id_order int not null, 
+id_product int not null,
+quantity nvarchar(30) not null)
+
+create table order1
+(id int not null,
+id_customer int not null,
+id_status int not null,
+id_warehouse int not null)
+
+alter table order1 add constraint pk_order primary key (id)
+
+create table order_status
+(id int not null,
+status nvarchar(30) not null)
+
+alter table order_status add constraint pk_status primary key (id)
