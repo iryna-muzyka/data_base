@@ -1,0 +1,44 @@
+alter table product
+add constraint fk_manufacturer_product
+foreign key (id_manufacturer) 
+references manufacturer(id)
+
+alter table product
+add constraint fk_category_product 
+foreign key (id_category) 
+references category(id)
+
+alter table discounts
+add constraint fk_product_discount
+foreign key (id_product)
+references product(id)
+
+alter table manufacturer
+add constraint fk_country_manufacturer
+foreign key (id_country)
+references country(id)
+
+alter table order_list
+add constraint fk_product_order_list
+foreign key (id_product)
+references product(id)
+
+alter table order_list
+add constraint fk_order_order_list
+foreign key (id_order)
+references order1(id)
+
+alter table order1
+add constraint fk_customer_order1
+foreign key (id_customer)
+references customer(id)
+
+alter table order1
+add constraint fk_warehouse_order1
+foreign key (id_warehouse)
+references warehouse(id)
+
+alter table order1
+add constraint fk_status_order1
+foreign key (id_status)
+references order_status(id)
