@@ -50,3 +50,29 @@ where (id_city='city_29')
 left join name
 from city 
 on address1.id_city=city.name
+
+
+
+SELECT first_name  as 'Ïð³çâèùå'
+ FROM customer
+where middle_name=’Vladyslav’
+
+
+SELECT  name, phone, id_country 
+FROM manufacturer 
+WHERE phone LIKE ‘+380[6,9][7,8]%[^5]‘ OR ‘96%[^5]‘
+
+
+SELECT first_name  as 'Ïð³çâèùå'
+ FROM customer
+where middle_name NOT IN (‘Vladyslav’,’Olena’)
+
+
+SELECT first_name  as 'Ïð³çâèùå'
+ FROM customer
+where middle_name=’Vladyslav’
+
+
+SELECT id, name, price 
+FROM product 
+WHERE price NOT BETWEEN 365 AND 455
