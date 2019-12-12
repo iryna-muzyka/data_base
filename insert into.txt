@@ -269,3 +269,198 @@ insert into order_status
 values('05', 'Vidpravleno')
 insert into order_status
 values('06', 'Dostavleno')
+
+
+insert into warehouse
+values('wareh_1', 'Molodizhna', '7')
+insert into warehouse
+values('wareh_2', 'Bogdana Khmelnytskogo', '134')
+insert into warehouse
+values('wareh_3', 'Gorodotska', '85')
+insert into warehouse
+values('wareh_4', 'Pasichna', '12')
+
+
+
+insert into province
+values('prov_1', 'Vinnytska')
+insert into province
+values('prov_2', 'Volynska')
+insert into province
+values('prov_3', 'Dnipropetrovska')
+insert into province
+values('prov_4', 'Donetska')
+insert into province
+values('prov_5', 'Zhytomyrska')
+insert into province
+values('prov_6', 'Zakarpatska')
+insert into province
+values('prov_7', 'Zaporizka')
+insert into province
+values('prov_8', 'Ivano-Frankivska')
+insert into province
+values('prov_9', 'Kyivska')
+insert into province
+values('prov_10', 'Kirovogradska')
+insert into province
+values('prov_11', 'Luganska')
+insert into province
+values('prov_12', 'Lvivska')
+insert into province
+values('prov_13', 'Mykolaivska')
+insert into province
+values('prov_14', 'Odeska')
+insert into province
+values('prov_15', 'Poltavska')
+insert into province
+values('prov_16', 'Rivnenska')
+insert into province
+values('prov_17', 'Ternopilska')
+insert into province
+values('prov_18', 'Kharkivska')
+insert into province
+values('prov_19', 'Khersonska')
+insert into province
+values('prov_20', 'Khmelnytska')
+insert into province
+values('prov_21', 'Cherkaska')
+insert into province
+values('prov_22', 'Chernivetska')
+insert into province
+values('prov_23', 'Chernigivska')
+
+
+
+
+insert into city
+values('city_1', 'Vinnitsia', 'prov_1')
+insert into city
+values('city_2', 'Volodimir-Volynskiy', 'prov_2')
+insert into city
+values('city_3', 'Kovel', 'prov_2')
+insert into city
+values('city_4', 'Lutsk', 'prov_2')
+insert into city
+values('city_5', 'Novovolinsk', 'prov_2')
+insert into city
+values('city_6', 'Kamyanske', 'prov_3')
+insert into city
+values('city_7', 'Dnipro', 'prov_3')
+insert into city
+values('city_8', 'Krivoy Rig', 'prov_3')
+insert into city
+values('city_9', 'Nikopol', 'prov_3')
+insert into city
+values('city_10', 'Gorlivka', 'prov_4')
+insert into city
+values('city_11', 'Donetsk', 'prov_4')
+insert into city
+values('city_12', 'Kramatorsk', 'prov_4')
+insert into city
+values('city_13', 'Zhitomor', 'prov_5')
+insert into city
+values('city_014', 'Novograd-Volinskiy', 'prov_5')
+insert into city
+values('city_015', 'Mukacheve', 'prov_6')
+insert into city
+values('city_16', 'Uzhorod', 'prov_6')
+insert into city
+values('city_17', 'Berdiyansk', 'prov_7')
+insert into city
+values('city_18', 'Zaporizhia', 'prov_7')
+insert into city
+values('city_19', 'Melitopol', 'prov_7')
+insert into city
+values('city_20', 'Ivano-Frankivsk', 'prov_8')
+insert into city
+values('city_21', 'Kalush', 'prov_8')
+insert into city
+values('city_22', 'Kyiv', 'prov_9')
+insert into city
+values('city_23', 'Bila Tserkva', 'prov_9')
+insert into city
+values('city_24', 'Borispol', 'prov_9')
+insert into city
+values('city_25', 'Kropivnitskiy', 'prov_10')
+insert into city
+values('city_26', 'Oleksandria', 'prov_10')
+insert into city
+values('city_27', 'Alchevsk', 'prov_11')
+insert into city
+values('city_28', 'Lugansk', 'prov_11')
+insert into city
+values('city_29', 'Lviv', 'prov_12')
+insert into city
+values('city_30', 'Mikolaiv', 'prov_13')
+insert into city
+values('city_31', 'Odessa', 'prov_14')
+insert into city
+values('city_32', 'Poltava', 'prov_15')
+insert into city
+values('city_33', 'Rivne', 'prov_16')
+insert into city
+values('city_34', 'Kamianets-Podilskiy', 'prov_20')
+insert into city
+values('city_35', 'Ternopil', 'prov_17')
+insert into city
+values('city_36', 'Kharkiv', 'prov_18')
+insert into city
+values('city_37', 'Kherson', 'prov_19')
+insert into city
+values('city_38', 'Khmelnitskiy', 'prov_20')
+insert into city
+values('city_39', 'Cherkasy', 'prov_21')
+insert into city
+values('city_40', 'Chernivtsy', 'prov_22')
+insert into city
+values('city_41', 'Chernigiv', 'prov_23')
+
+
+
+insert into basket
+values('bask_1', 'cus_1', '08/12/2019', 'prod_4', '6')
+insert into basket
+values('bask_2', 'cus_17', '08/12/2019', 'prod_6', '8')
+insert into basket
+values('bask_3', 'cus_18', '08/12/2019', 'prod_3', '4')
+insert into basket
+values('bask_4', 'cus_19', '08/12/2019', 'prod_8', '1')
+insert into basket
+values('bask_5', 'cus_22', '08/12/2019', 'prod_14', '1')
+insert into basket
+values('bask_6', 'cus_13', '08/12/2019', 'prod_24', '1')
+insert into basket
+values('bask_7', 'cus_14', '09/12/2019', 'prod_8', '1')
+insert into basket
+values('bask_8', 'cus_15', '09/12/2019', 'prod_5', '1')
+insert into basket
+values('bask_9', 'cus_18', '09/12/2019', 'prod_2', '6')
+insert into basket
+values('bask_10', 'cus_21', '09/12/2019', 'prod_32', '1')
+insert into basket
+values('bask_11', 'cus_20', '09/12/2019', 'prod_41', '1')
+insert into basket
+values('bask_12', 'cus_3', '09/12/2019', 'prod_46', '1')
+insert into basket
+values('bask_13', 'cus_5', '10/12/2019', 'prod_47', '1')
+insert into basket
+values('bask_14', 'cus_7', '10/12/2019', 'prod_48', '1')
+insert into basket
+values('bask_15', 'cus_9', '10/12/2019', 'prod_1', '8')
+insert into basket
+values('bask_16', 'cus_10', '10/12/2019', 'prod_4', '15')
+insert into basket
+values('bask_17', 'cus_11', '10/12/2019', 'prod_5', '20')
+insert into basket
+values('bask_18', 'cus_12', '10/12/2019', 'prod_9', '13')
+insert into baske
+values('bask_19', 'cus_16', '10/12/2019', 'prod_11', '1')
+insert into basket
+values('bask_20', 'cus_23', '10/12/2019', 'prod_33', '1')
+insert into basket
+values('bask_21', 'cus_13', '11/12/2019', 'prod_22', '1')
+insert into basket
+values('bask_22', 'cus_14', '11/12/2019', 'prod_49', '1')
+insert into basket
+values('bask_23', 'cus_16', '11/12/2019', 'prod_14', '1')
+
