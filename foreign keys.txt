@@ -42,3 +42,18 @@ alter table order1
 add constraint fk_status_order1
 foreign key (id_status)
 references order_status(id)
+
+alter table city
+add constraint fk_province_city
+foreign key (id_province)
+references province(id)
+
+alter table basket
+add constraint fk_customer_basket
+foreign key (id_customer)
+references customer(id)
+
+alter table basket
+add constraint fk_product_basket
+foreign key (id_product)
+references product(id)
