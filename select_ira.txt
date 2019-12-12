@@ -1,18 +1,12 @@
-/* Знайти код продукту, код категорії, назву і ціну товару для усіх товарів, ціна яких не перевищує 1000 у.о. */
-
 select id, id_category, name, price
 from product
 where price < 1000
 
 
-/* Знайти всі записи таблиці order1, для яких статус замовлення 05 або 06 і які відправляються до покупців з другого складу */
-
 select *
 from order1
 where (id_status='05' or id_status='06') and (id_warehouse='wareh_2')
 
-
-/* Вивести унікальні коди виробників, які є у таблиці product */
 
 select district id_manufacturer
 from product
@@ -24,28 +18,24 @@ where (id_status='01' or id_status='02')
 left join order_status 
 on order1.id_status=order_status.id
 
-/* Вивести ПІБ і номери телефону покупців чоловічої статі, впорядковані по прізвищу у порядку зростання за допомогою оператора order by */
 
 select id, first_name, middle_name, last_name, phone
 from customer
 where (gender='man')
 order by first_name ask 
 
-/* Дізнатись суму покупок кожного покупця і впорядкувати таблицю по спаданню вартості покупок */
 
 select id_customer, sum(price) as total_cost
 from payment 
 group by id_customer
 order by total_cost desc
 
-/* Вивести ті загальні вартості покупок користувачів, які перевищують 3000 у.о. */
 
 select id_customer, sum(price)
 from payment
 group by id_customer
 having sum(price) > 3000
 
-/* Використовуючи оператори and i or вивести записи customer чоловічої статі, прізвища яких починаються з букви "L" або "K" */
 
 select *
 from customer
@@ -53,7 +43,6 @@ where (first_name like 'K&'
 or first_name like 'L&')
 and gender = 'man'
 
-/* Вивести код покупця, вулицю, будинок і квартиру проживання, які проживають у city_29, вивести також зліва назву міста з кодом city_29 */ 
 
 select id_customer, street, house, flat 
 from address1
