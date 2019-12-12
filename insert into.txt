@@ -1,0 +1,271 @@
+insert into product
+values('prod_1', 'man_1', 'cat_1', 'Simba', 'dub sonoma', '310', '450', '310', '365')
+insert into product
+values('prod_2', 'man_1', 'cat_1', 'Chico', 'dub fregat', '330', '440', '330', '455')
+insert into product
+values('prod_3', 'man_2', 'cat_1', 'Anderwood', 'dub klondayk', '345', '470', '345', '480')
+insert into product
+values('prod_4', 'man_1', 'cat_1', 'Teddy', 'buk', '360', '465', '360', '610')
+insert into product
+values('prod_5', 'man_2', 'cat_1', 'Smart', 'bereza', '340', '440', '330', '690')
+insert into product
+values('prod_6', 'man_3', 'cat_1', 'Slayder', 'LDSP', '300', '450', '300', '135')
+insert into product
+values('prod_7', 'man_3', 'cat_1', 'Single', 'yasen', '350', '420', '350', '234')
+insert into product
+values('prod_8', 'man_2', 'cat_1', 'Pinacolada', 'gorih', '500', '790', '440', '1435')
+insert into product
+values('prod_9', 'man_4', 'cat_1', 'Classic', 'LDSP', '310', '435', '310', '289')
+insert into product
+values('prod_10', 'man_4', 'cat_1', 'Caddy', 'modryna', '300', '450', '300', '455')
+insert into product
+values('prod_11', 'man_4', 'cat_1', 'Rondo', 'dub', '350', '470', '350', '640')
+insert into product
+values('prod_12', 'man_5', 'cat_2', 'Largo', 'dub klondayk', '1200', '800', '735', '7160')
+insert into product
+values('prod_13', 'man_5', 'cat_2', 'Harbor', 'dub sonoma', '175(1600)', '770', '750', '940')
+insert into product
+values('prod_14', 'man_5', 'cat_2', 'Keen', 'dub gregat', '1200', '740', '800', '10725')
+insert into product
+values('prod_15', 'man_6', 'cat_2', 'Gracio', 'gorih', '1000', '740', '700', '1875')
+insert into product
+values('prod_16', 'man_6', 'cat_2', 'Grassy Keen', 'yasen', '1600', '900', '760', '3630')
+insert into product
+values('prod_17', 'man_7', 'cat_2', 'Cuadrado', 'yalyna', '1600(2400)', '900', '760', '16740')
+insert into product
+values('prod_18', 'man_7', 'cat_2', 'Redonda', 'DSP', '1400(1800)', '850', '760', '14850')
+insert into product
+values('prod_19', 'man_7', 'cat_3', 'Greta', 'LDSP', '1400', '2025', '370', '3260')
+insert into product
+values('prod_20', 'man_7', 'cat_3', 'Rio', 'LDSP', '1200', '2200', '400', '2360')
+insert into product
+values('prod_21', 'man_1', 'cat_3', 'Solo', 'klen', '900', '2100', '330', '6415')
+insert into product
+values('prod_22', 'man_1', 'cat_3', 'Linda', 'dub', '2700', '2100', '400', '8800')
+insert into product
+values('prod_23', 'man_2', 'cat_3', 'Solomia', 'DSP', '1000', '2155', '405', '1650')
+insert into product
+values('prod_24', 'man_3', 'cat_3', 'Amina', 'LDSP', '1200', '2215', '545', '3805')
+insert into product
+values('prod_25', 'man_4', 'cat_3', 'Nepo', 'yalyna', '1000', '1750', '365', '5460')
+insert into product
+values('prod_26', 'man_5', 'cat_3', 'Olha', 'DSP', '1200', '2200', '450', '2765')
+insert into product
+values('prod_27', 'man_5', 'cat_3', 'Vizyt', 'LDSP', '1550', '2200', '1105', '4815')
+insert into product
+values('prod_28', 'man_6', 'cat_3', 'Alfa', 'LDSP', '1400', '2090', '375', '4135')
+insert into product
+values('prod_29', 'man_7', 'cat_3', 'Beatris', 'gorih', '1665', '2085', '470', '5530')
+insert into product
+values('prod_30','man_6','cat_4','Praga','LDSP','700','440','1000','985')
+insert into product
+values('prod_31','man_6','cat_4','Sigma','LDSP18mm','800','430','800','3675')
+insert into product
+values('prod_32','man_2','cat_4','Delta','DSP','750','450','750','3195')
+insert into product
+values('prod_33','man_2','cat_4','Elipson','LDSP18mm','750','430','750','4870')
+insert into product
+values('prod_34','man_3','cat_4','Modern','LDSP16mm','900','550','400','1135')
+insert into product
+values('prod_35','man_3','cat_4','Bridgh','clen','890','440','490','1245')
+insert into product
+values('prod_36','man_4','cat_4','Vega','LDSP18mm','760','470','600,'2340')
+insert into product
+values('prod_37','man_4','cat_4','GS-102','sosna','950','530','620','2430')
+insert into product
+values('prod_38','man_5','cat_4','Gamma','LDSP16mm','800','430','800','5405')
+insert into product
+values('prod_39','man_5','cat_4','GammaHrom','LDSP18mm','800','430','800','5135')
+insert into product
+values('prod_40','man_5','cat_5','Papa Carlo','tree','700','400','850','5705')
+insert into product
+values('prod_41','man_6','cat_5','Butterfly','LDSP','902','520','602','1905')
+insert into product
+values('prod_42','man_6','cat_5','Orego','LDSP','560','440','700','4870')
+insert into product
+values('prod_43','man_1','cat_5','Angelika','LDSP','900','575','600','1820')
+insert into product
+values('prod_44','man_1','cat_5','Texas','LDSP','560','400','700','2045')
+insert into product
+values('prod_45','man_1','cat_5','Marsel','MVF','1300','840','386','4340')
+insert into product
+values('prod_46','man_2','cat_5','Rosa','LDSP','965','879','535','5440')
+insert into product
+values('prod_47','man_2','cat_5','Pragua','LDSP','1600','860','400','2815')
+insert into product
+values('prod_48','man_3','cat_5','Bianko','LDSP','1050','835','406','2470')
+insert into product
+values('prod_49','man_3','cat_5','Lutsera','LDSP','810','828','380','1225')
+insert into product
+values('prod_50','man_4','cat_5','Cruis','LDSP','1334','811','404','2290')
+
+
+
+insert into discounts
+values('dis_1', '317', '26.11.2019', '29.11.2019', 'prod_1')
+insert into discounts
+values('dis_2', '217', '26.11.2019', '29.11.2019', 'prod_7')
+insert into discounts
+values('dis_3', '3510', '26.11.2019', '29.11.2019', 'prod_16')
+insert into discounts
+values('dis_4', '1550', '26.11.2019', '29.11.2019', 'prod_23')
+insert into discounts
+values('dis_5', '3610', '29.11.2019', '05.12.2019', 'prod_31')
+insert into discounts
+values('dis_6', '2300', '29.11.2019', '05.12.2019', 'prod_36')
+insert into discounts
+values('dis_7', '5300', '06.12.2019', '11.12.2019', 'prod_38')
+insert into discounts
+values('dis_8', '4815', '06.12.2019', '11.12.2019', 'prod_42')
+insert into discounts
+values('dis_9', '4280', '06.12.2019', '11.12.2019', 'prod_45')
+insert into discounts
+values('dis_10', '5345', '06.12.2019', '11.12.2019', 'prod_46')
+insert into discounts
+values('dis_11', '2256', '06.12.2019', '11.12.2019', 'prod_50')
+
+
+insert into country
+values('481', 'Belarus')
+insert into country
+values('482', 'Ukraine')
+insert into country
+values('460', 'Russia')
+insert into country
+values('590', 'Poland')
+
+
+insert into manufacturer
+values('man_1', 'VIP Master', ' +79587628569', '460')
+insert into manufacturer
+values('man_2', 'Svit mebliv', ' +380684913475', '482')
+insert into manufacturer
+values('man_3', 'Contynent', ' +380663072453', '482')
+insert into manufacturer
+values('man_4', 'Mebel Star', ' +79584983521', '460')
+insert into manufacturer
+values('man_5', 'Arko Iris', ' +375176236189', '481')
+insert into manufacturer
+values('man_6', 'Domini', ' +48221234567', '590')
+insert into manufacturer
+values('man_7', 'Wood World', ' +48269341609', '590')
+
+
+insert into category
+values('cat_1', 'Chairs')
+insert into category
+values('cat_2', 'Kitchen tables')
+insert into category
+values('cat_3', 'Hallway')
+insert into category
+values('cat_4', 'Coffee tables')
+insert into category
+values('cat_5', 'Dressers')
+
+
+
+insert into order_list
+values('1', 'ord_1', 'prod_1', '5')
+insert into order_list
+values('2', 'ord_1', 'prod_23', '1')
+insert into order_list
+values('3', 'ord_2', 'prod_2', '8')
+insert into order_list
+values('4', 'ord_3', 'prod_3', '4')
+insert into order_list
+values('5', 'ord_4', 'prod_6', '6')
+insert into order_list
+values('6', 'ord_5', 'prod_8', '1')
+insert into order_list
+values('7', 'ord_5', 'prod_17', '1')
+insert into order_list
+values('8', 'ord_6', 'prod_23', '6')
+insert into order_list
+values('9', 'ord_7', 'prod_4', '15')
+insert into order_list
+values('10', 'ord_8', 'prod_6', '12')
+insert into order_list
+values('11', 'ord_8', 'prod_14', '1')
+insert into order_list
+values('12', 'ord_8', 'prod_35', '1')
+insert into order_list
+values('13', 'ord_9', 'prod_14', '1')
+insert into order_list
+values('14', 'ord_10', 'prod_1', '20')
+insert into order_list
+values('15', 'ord_11', 'prod_2', '14')
+insert into order_list
+values('16', 'ord_11', 'prod_43', '1')
+insert into order_list
+values('17', 'ord_12', 'prod_32', '1')
+insert into order_list
+values('18', 'ord_13', 'prod_38', '1')
+insert into order_list
+values('19', 'ord_14', 'prod_44', '1')
+insert into order_list
+values('20', 'ord_15', 'prod_18', '1')
+insert into order_list
+values('21', 'ord_16', 'prod_9', '1')
+insert into order_list
+values('22', 'ord_17', 'prod_41', '1')
+insert into order_list
+values('23', 'ord_18', 'prod_46', '1')
+insert into order_list
+values('24', 'ord_18', 'prod_7', '18')
+insert into order_list
+values('25', 'ord_19', 'prod_50', '1')
+
+
+insert into order1
+values('ord_1', 'cus_1', '05/12/19', '06', 'wareh_1')
+insert into order1
+values('ord_2', 'cus_2', '05/12/19', '06', 'wareh_1')
+insert into order1
+values('ord_3', 'cus_3', '05/12/19', '06', 'wareh_1')
+insert into order1
+values('ord_4', 'cus_4', '05/12/19', '06', 'wareh_1')
+insert into order1
+values('ord_5', 'cus_5', '05/12/19', '06', 'wareh_1')
+insert into order1
+values('ord_6', 'cus_6', '05/12/19', '06', 'wareh_2')
+insert into order1
+values('ord_7', 'cus_7', '05/12/19', '06', 'wareh_2')
+insert into order1
+values('ord_8', 'cus_8', '05/12/19', '06', 'wareh_2')
+insert into order1
+values('ord_9', 'cus_9', '06/12/19', '05', 'wareh_2')
+insert into order1
+values('ord_10', 'cus_10', '06/12/19', '05', 'wareh_2')
+insert into order1
+values('ord_11', 'cus_10', '08/12/19', '04', 'wareh_2')
+insert into order1
+values('ord_12', 'cus_11', '08/12/19', '04', 'wareh_3')
+insert into order1
+values('ord_13', 'cus_12', '08/12/19', '04', 'wareh_3')
+insert into order1
+values('ord_14', 'cus_13', '09/12/19', '02', 'wareh_3')
+insert into order1
+values('ord_15', 'cus_13', '12/12/19', '02', 'wareh_3')
+insert into order1
+values('ord_16', 'cus_13', '16/12/19', '02', 'wareh_3')
+insert into order1
+values('ord_17', 'cus_14', '17/12/19', '01', 'wareh_3')
+insert into order1
+values('ord_18', 'cus_15', '17/12/19', '01', 'wareh_4')
+insert into order1
+values('ord_19', 'cus_16', '17/12/19', '01', 'wareh_4')
+
+
+
+insert into order_status
+values('01', 'V ochikuvanni')
+insert into order_status
+values('02', 'Ochikue oplaty')
+insert into order_status
+values('03', 'Tymchasovo zatrymano')
+insert into order_status
+values('04', 'Komplektuetsia')
+insert into order_status
+values('05', 'Vidpravleno')
+insert into order_status
+values('06', 'Dostavleno')
