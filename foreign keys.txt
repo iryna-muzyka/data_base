@@ -58,6 +58,25 @@ add constraint fk_product_basket
 foreign key (id_product)
 references product(id)
 
+alter table address1
+add constraint fk_customer_address
+foreign key (id_customer)
+references customer(id)
+alter table address1
+add constraint fk_city_address
+foreign key (id_city)
+references city(id)
+
+alter table review
+add constraint fk_customer_review
+foreign key (id_customer)
+references customer(id)
+
+alter table review
+add constraint fk_product_review
+foreign key (id_product)
+references product(id)
+
 alter table payment
 add constraint fk_customer_payment
 foreign key (id_customer)
@@ -72,15 +91,3 @@ alter table payment
 add constraint fk_order_payment
 foreign key (id_order)
 references order1(id)
-
-alter table review
-add constraint fk_customer_review
-foreign key (id_customer)
-references customer(id)
-
-alter table review
-add constraint fk_product_review
-foreign key (id_product)
-references product(id)
-
-
