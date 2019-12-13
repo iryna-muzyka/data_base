@@ -1,0 +1,19 @@
+select*
+from basket
+where id_product=5
+
+select*
+from address1
+where id_city=6
+
+select id_product
+from discounts
+where start_date1='26.11.2019'
+
+select*
+from city
+where id_province=3
+
+select id_customer id_order payment_date
+from payment
+where id_bank=3
