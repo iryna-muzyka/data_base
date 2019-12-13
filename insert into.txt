@@ -464,3 +464,231 @@ values('bask_22', 'cus_14', '11/12/2019', 'prod_49', '1')
 insert into basket
 values('bask_23', 'cus_16', '11/12/2019', 'prod_14', '1')
 
+<<<<<<< HEAD
+
+insert into review
+values('rv_1', 'prod_1', '14/12/2019', '9', 'Duzhe zadovolena zamovlenniam', 'cus_1')
+insert into review
+values('rv_2', 'prod_2', '15/12/2019', '8', 'Tsena sootvetstvuet kachestvu', 'cus_2')
+insert into review
+values('rv_3', 'prod_23', '15/12/2019', '9', 'Horoshaia mebel', 'cus_6')
+insert into review
+values('rv_4', 'prod_4', '15/12/2019', '9', 'Bystraya dostavka', 'cus_7')
+insert into review
+values('rv_5', 'prod_14', '17/12/2019', '8', 'Ochen ponravilas mebel', 'cus_8')
+insert into review
+values('rv_6', 'prod_6', '17/12/2019', '10', 'Vysoka iakist za pomirnu tsinu', 'cus_8')
+insert into review
+values('rv_7', 'prod_35', '17/12/2019', '10', 'Vsim rekomenduy', 'cus_8')
+insert into review
+values('rv_8', 'prod_14', '18/12/2019', '9', 'Prekrasnoe dopolnenie k interyeru', 'cus_9')
+insert into review
+values('rv_9', 'prod_1', '18/12/2019', '9', 'Shvydka dostavka', 'cus_10')
+insert into review
+values('rv_10', 'prod_2', '18/12/2019', '8', 'Duzhe horoshyi servis', 'cus_11')
+insert into review
+values('rv_11', 'prod_38', '18/12/2019', '7', 'Dostavka tryvala 3 dni', 'cus_13')
+insert into review
+values('rv_12', 'prod_18', '18/12/2019', '10', 'Vysshee kachestvo', 'cus_15')
+
+insert into payment
+values('pay_1', 'cus_1', 'bank_1', 'ord_1', '3475', '05/12/2019')
+insert into payment
+values('pay_2', 'cus_2', 'bank_1', 'ord_2', '3640', '05/12/2019')
+insert into payment
+values('pay_3', 'cus_3', 'bank_1', 'ord_3', '1920', '05/12/2019')
+insert into payment
+values('pay_4', 'cus_4', 'bank_2', 'ord_4', '810', '05/12/2019')
+insert into payment
+values('pay_5', 'cus_5', 'bank_2', 'ord_5', '18175', '05/12/2019')
+insert into payment
+values('pay_6', 'cus_6', 'bank_2', 'ord_6', '9900', '05/12/2019')
+insert into payment
+values('pay_7', 'cus_7', 'bank_2', 'ord_7', '9150', '05/12/2019')
+insert into payment
+values('pay_8', 'cus_8', 'bank_3', 'ord_8', '13590', '05/12/2019')
+insert into payment
+values('pay_9', 'cus_9', 'bank_3', 'ord_9', '10725', '06/12/2019')
+insert into payment
+values('pay_10', 'cus_10', 'bank_4', 'ord_10', '7300', '06/12/2019')
+insert into payment
+values('pay_11', 'cus_10', 'bank_4', 'ord_11', '8190', '08/12/2019')
+insert into payment
+values('pay_12', 'cus_11', 'bank_4', 'ord_12', '3195', '08/12/2019')
+insert into payment
+values('pay_13', 'cus_12', 'bank_3', 'ord_13', '5405', '08/12/2019')
+insert into payment
+values('pay_14', 'cus_13', 'bank_5', 'ord_14', '2045', '09/12/2019')
+insert into payment
+values('pay_15', 'cus_13', 'bank_1', 'ord_15', '14850', '12/12/2019')
+insert into payment
+values('pay_16', 'cus_13', 'bank_6', 'ord_16', '289', '16/12/2019')
+insert into payment
+values('pay_17', 'cus_14', 'bank_2', 'ord_17', '1905', '17/12/2019')
+insert into payment
+values('pay_18', 'cus_15', 'bank_2', 'ord_18', '9652', '17/12/2019')
+insert into payment
+values('pay_19', 'cus_16', 'bank_1', 'ord_19', '2290', '17/12/2019')
+
+insert into bank
+values('bank_1', 'PrivatBank', 'Gorodotska', '143')
+insert into bank
+values('bank_2', 'OshchadBank', 'Krakivska', '38')
+insert into bank
+values('bank_3', 'Bank Aval', 'Dobromylska', '2')
+insert into bank
+values('bank_4', 'Rayfayzen Bank', 'Korotka', '8')
+insert into bank
+values('bank_5', 'Alfa Bank', 'Geroiv Upa', '85')
+insert into bank
+values('bank_6', 'Schasliviy Bank', 'Gretska', '96')
+
+=======
+>>>>>>> 3acff51ab9dff6094f893ba7884bc35692920e1e
+insert into basket
+values('bask_1', 'cus_1', '08/12/2019', 'prod_4', '6')
+insert into basket
+values('bask_2', 'cus_17', '08/12/2019', 'prod_6', '8')
+insert into basket
+values('bask_3', 'cus_18', '08/12/2019', 'prod_3', '4')
+insert into basket
+values('bask_4', 'cus_19', '08/12/2019', 'prod_8', '1')
+insert into basket
+values('bask_5', 'cus_22', '08/12/2019', 'prod_14', '1')
+insert into basket
+values('bask_6', 'cus_13', '08/12/2019', 'prod_24', '1')
+insert into basket
+values('bask_7', 'cus_14', '09/12/2019', 'prod_8', '1')
+insert into basket
+values('bask_8', 'cus_15', '09/12/2019', 'prod_5', '1')
+insert into basket
+values('bask_9', 'cus_18', '09/12/2019', 'prod_2', '6')
+insert into basket
+values('bask_10', 'cus_21', '09/12/2019', 'prod_32', '1')
+insert into basket
+values('bask_11', 'cus_20', '09/12/2019', 'prod_41', '1')
+insert into basket
+values('bask_12', 'cus_3', '09/12/2019', 'prod_46', '1')
+insert into basket
+values('bask_13', 'cus_5', '10/12/2019', 'prod_47', '1')
+insert into basket
+values('bask_14', 'cus_7', '10/12/2019', 'prod_48', '1')
+insert into basket
+values('bask_15', 'cus_9', '10/12/2019', 'prod_1', '8')
+insert into basket
+values('bask_16', 'cus_10', '10/12/2019', 'prod_4', '15')
+insert into basket
+values('bask_17', 'cus_11', '10/12/2019', 'prod_5', '20')
+insert into basket
+values('bask_18', 'cus_12', '10/12/2019', 'prod_9', '13')
+insert into baske
+values('bask_19', 'cus_16', '10/12/2019', 'prod_11', '1')
+insert into basket
+values('bask_20', 'cus_23', '10/12/2019', 'prod_33', '1')
+insert into basket
+values('bask_21', 'cus_13', '11/12/2019', 'prod_22', '1')
+insert into basket
+values('bask_22', 'cus_14', '11/12/2019', 'prod_49', '1')
+insert into basket
+values('bask_23', 'cus_16', '11/12/2019', 'prod_14', '1')
+
+
+insert into address1
+values('adr_1', 'cus_1', 'city_4', 'Kotyka', '4', '14')
+insert into address1
+values('adr_2', 'cus_2', 'city_6', 'Melnyka', '15', '1')
+insert into address1
+values('adr_3', 'cus_3', 'city_8', 'Pasichna', '64', '5')
+insert into address1
+values('adr_4', 'cus_4', 'city_14', 'Levchuka', '32', '17')
+insert into address1
+values('adr_5', 'cus_5', 'city_32', 'Lesi Ukrainki', '53', '34')
+insert into address1
+values('adr_6', 'cus_6', 'city_21', 'Gorodotska', '68', '2')
+insert into address1
+values('adr_7', 'cus_7', 'city_6', 'Svobody', '157', '62')
+insert into address1
+values('adr_8', 'cus_8', 'city_7', 'Nezalezhnosti', '18', '3')
+insert into address1
+values('adr_9', 'cus_9', 'city_8', 'Molodizhna', '22', '67')
+insert into address1
+values('adr_10', 'cus_10', 'city_4', 'Bogdana Khmelnytskogo', '49', '86')
+insert into address1
+values('adr_11', 'cus_11', 'city_34', 'Stusa', '13', '23')
+insert into address1
+values('adr_12', 'cus_12', 'city_28', 'Gogolia', '10', '64')
+insert into address1
+values('adr_13', 'cus_13', 'city_19', 'Gracha', '8', '2')
+insert into address1
+values('adr_14', 'cus_14', 'city_21', 'Pasichna', '62', '22')
+insert into address1
+values('adr_15', 'cus_15', 'city_38', 'Kravchuka', '30', '54')
+insert into address1
+values('adr_16', 'cus_16', 'city_25', 'Oleny Pchilky', '35', '38')
+insert into address1
+values('adr_17', 'cus_17', 'city_36', 'Medovoi Pechery', '135', '80')
+insert into address1
+values('adr_18', 'cus_18', 'city_2', 'Samiyla Velychka', '108', '46')
+insert into address1
+values('adr_19', 'cus_19', 'city_1', 'Dovha', '11', '53')
+insert into address1
+values('adr_20', 'cus_20', 'city_26', 'Soborna', '36', '13')
+insert into address1
+values('adr_21', 'cus_21', 'city_13', 'Lemkivska', '64', '76')
+insert into address1
+values('adr_22', 'cus_22', 'city_18', 'Molodizhna', '23', '24')
+insert into address1
+values('adr_23', 'cus_23', 'city_26', 'Kolisna', '65', '61')
+
+
+insert into customer
+values('cus_1', 'Koval', 'Petro', 'Volodumurovych', 'man', '12/04/1965', 'petrok@gmail.com', '+380683215634', 'petrovol164')
+insert into customer
+values('cus_2', 'Cherkasov', 'Vladyslav', 'Olegovich', 'man', '28/03/1998', 'trues316@gmail.com', '+380682375910', '1234gaz')
+insert into customer
+values('cus_3', 'Petrenko', 'Lesia', 'Bogdanivna', 'woman', '13/04/1994', 'leskasmile@gmail.com', '+380663062156', '53282lesia')
+insert into customer
+values('cus_4', 'Bezruka', 'Vita', 'Vasylivna', 'woman', '26/01/1996', 'tikitavi@gmail.com', '+380664022839', 'vitusia324')
+insert into customer
+values('cus_5', 'Sribniak', 'Olena', 'Viktorivna', 'woman', '05/04/2001', 'olkaolka33@gmail.com', '+380634063265', 'gdaka35')
+insert into customer
+values('cus_6', 'Mudryi', 'Stanislav', 'Olegovich', 'man', '18/09/1978', 'starboy53@gmail.com', '+380964216743', 'stanikboss')
+insert into customer
+values('cus_7', 'Petriv', 'Maria', 'Bogdanivna', 'woman', '30/06/1991', 'mashka12b@gmail.com', '+380662031945', 'sghsakd')
+insert into customer
+values('cus_8', 'Nespliak', 'Kateryna', 'Vladyslavivna', 'woman', '17/10/1979', 'donkida@gmail.com', '+380956031357', 'dglalqlq')
+insert into customer
+values('cus_9', 'Kuryk', 'Vadym', 'Petrovych', 'man', '14/07/1987', 'kuryk421@ukr.net', '+380992031848', 'ckakalz')
+insert into customer
+values('cus_10', 'Svitlyi', 'Roman', 'Dmitrovich', 'man', '08/09/1995', 'svitliyman@gmail.com', '+380935063422', 'romikgnomik')
+insert into customer
+values('cus_11', 'Borysenko', 'Vladyslava', 'Olegivna', 'woman', '03/10/2000', 'boroboro31@gmail.com', '+380994053475', 'vladkashocoladka')
+insert into customer
+values('cus_12', 'Lomysh', 'Tetiana', 'Tarasivna', 'woman', '14/02/1976', 'kvitkaulitka@gmail.com', '+380953145687', 'fkakKxfs')
+insert into customer
+values('cus_13', 'Lehman', 'Andriy', 'Vladyslavovich', 'man', '15/08/1964', 'andriyvl95@gmail.com', '+380663562110', 'afkslfls')
+insert into customer
+values('cus_14', 'Denysenko', 'Oleg', 'Denysovich', 'man', '21/01/1975', 'oleglegleg@gmail.com', '+380634561278', 'glalalzmc')
+insert into customer
+values('cus_15', 'Kravchuk', 'Adel', 'Igorivna', 'woman', '24/12/1982', 'adelka46@gmail.com', '+380635782354', 'flslakznd')
+insert into customer
+values('cus_16', 'Rusyi', 'Matviy', 'Romanovich', 'man', '12/03/1974', 'rusiy74@gmail.com', '+380964572310', 'fkalzmcmsm')
+insert into customer
+values('cus_17', 'Bila', 'Yulia', 'Tarasivna', 'woman', '25/02/1978', 'julybila@gmail.com', '+380634057812', 'yuliyuli56')
+insert into customer
+values('cus_18', 'Begen', 'Taras', 'Borysovich', 'man', '27/04/1999', 'tarikbegen@gmail.com', '+380993061257', 'tarbegds')
+insert into customer
+values('cus_19', 'Vasylenko', 'Pavlo', 'Orestovich', 'man', '13/06/1997', 'pashkasmile64@gmail.com', '+380678236534', 'dkskxnda')
+insert into customer
+values('cus_20', 'Romaniv', 'Yana', 'Bogdanivna', 'woman', '29/04/1993', 'yanaromana@gmail.com', '+380963577513', 'fmwnxnfe')
+insert into customer
+values('cus_21', 'Lesyk', 'Igor', 'Rostyslavovich', 'man', '14/02/1992', 'singleman@gmail.com', '+380935672423', 'idifnsna')
+insert into customer
+values('cus_22', 'Kostuk', 'Iryna', 'Dmytrivna', 'woman', '16/03/1995', 'mmussya95@gmail.com', '+380956702489', 'dncmrkzka')
+insert into customer
+values('cus_23', 'Ravlyk', 'Sviatoslav', 'Mukolayovich', 'man', '19/11/1983', 'sviatyk56@gmail.com', '+380630295413', 'sviatik354')
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> 3acff51ab9dff6094f893ba7884bc35692920e1e
