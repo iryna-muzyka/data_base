@@ -1,0 +1,23 @@
+SELECT first_name  as 'ѕр≥звище'
+ FROM customer
+where middle_name=ТVladyslavТ
+
+
+SELECT  name, phone, id_country 
+FROM manufacturer 
+WHERE phone LIKE С+380[6,9][7,8]%[^5]С OR С96%[^5]С
+
+
+SELECT first_name  as 'ѕр≥звище'
+ FROM customer
+where middle_name NOT IN (СVladyslavТ,ТOlenaТ)
+
+
+SELECT first_name  as 'ѕр≥звище'
+ FROM customer
+where middle_name=ТVladyslavТ
+
+
+SELECT id, name, price 
+FROM product 
+WHERE price NOT BETWEEN 365 AND 455
