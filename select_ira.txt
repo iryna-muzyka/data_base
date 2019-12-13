@@ -1,12 +1,18 @@
+/* «найти код продукту, код категор≥њ, назву ≥ ц≥ну товару дл€ ус≥х товар≥в, ц≥на €ких не перевищуЇ 1000 у.о. */
+
 select id, id_category, name, price
 from product
 where price < 1000
 
 
+/* «найти вс≥ записи таблиц≥ order1, дл€ €ких статус замовленн€ 05 або 06 ≥ €к≥ в≥дправл€ютьс€ до покупц≥в з другого складу */
+
 select *
 from order1
 where (id_status='05' or id_status='06') and (id_warehouse='wareh_2')
 
+
+/* ¬ивести ун≥кальн≥ коди виробник≥в, €к≥ Ї у таблиц≥ product */
 
 select district id_manufacturer
 from product
@@ -18,31 +24,36 @@ where (id_status='01' or id_status='02')
 left join order_status 
 on order1.id_status=order_status.id
 
+/* ¬ивести ѕ≤Ѕ ≥ номери телефону покупц≥в чолов≥чоњ стат≥, впор€дкован≥ по пр≥звищу у пор€дку зростанн€ за допомогою оператора order by */
 
 select id, first_name, middle_name, last_name, phone
 from customer
 where (gender='man')
-order by first_name ask 
+order by first_name desc
 
+/* ƒ≥знатись суму покупок кожного покупц€ ≥ впор€дкувати таблицю по спаданню вартост≥ покупок */
 
 select id_customer, sum(price) as total_cost
 from payment 
 group by id_customer
 order by total_cost desc
 
+/* ¬ивести т≥ загальн≥ вартост≥ покупок користувач≥в, €к≥ перевищують 3000 у.о. */
 
 select id_customer, sum(price)
 from payment
 group by id_customer
 having sum(price) > 3000
 
+/* ¬икористовуючи оператори and i or вивести записи customer чолов≥чоњ стат≥, пр≥звища €ких починаютьс€ з букви "L" або "K" */
 
 select *
 from customer
-where (first_name like 'K&'
-or first_name like 'L&')
+where (first_name like 'K%'
+or first_name like 'L%')
 and gender = 'man'
 
+/* ¬ивести код покупц€, вулицю, будинок ≥ квартиру проживанн€, €к≥ проживають у city_29, вивести також зл≥ва назву м≥ста з кодом city_29 */ 
 
 select id_customer, street, house, flat 
 from address1
@@ -53,26 +64,10 @@ on address1.id_city=city.name
 
 
 
-SELECT first_name  as 'ѕр≥звище'
- FROM customer
-where middle_name=ТVladyslavТ
 
 
-SELECT  name, phone, id_country 
-FROM manufacturer 
-WHERE phone LIKE С+380[6,9][7,8]%[^5]С OR С96%[^5]С
 
 
-SELECT first_name  as 'ѕр≥звище'
- FROM customer
-where middle_name NOT IN (СVladyslavТ,ТOlenaТ)
 
+ 
 
-SELECT first_name  as 'ѕр≥звище'
- FROM customer
-where middle_name=ТVladyslavТ
-
-
-SELECT id, name, price 
-FROM product 
-WHERE price NOT BETWEEN 365 AND 455
