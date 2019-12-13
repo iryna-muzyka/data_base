@@ -57,14 +57,3 @@ alter table basket
 add constraint fk_product_basket
 foreign key (id_product)
 references product(id)
-
-alter table review
-add constraint fk_customer_review
-foreign key (id_customer)
-references customer(id)
-
-alter table review
-add constraint fk_product_review
-foreign key (id_product)
-references product(id)
-
