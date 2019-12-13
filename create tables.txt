@@ -5,9 +5,9 @@ USE onlineshop_2019
 go
 
 create table product
-(id int not null,
-id_manufacturer int not null,
-id_category int not null,
+(id text not null,
+id_manufacturer text not null,
+id_category text not null,
 name nvarchar(30) not null,
 material nvarchar(30) not null,
 width nvarchar(30) not null,
@@ -19,85 +19,86 @@ alter table product add constraint pk_product primary key (id)
 
 
 create table discounts 
-(code int not null, 
+(code text not null, 
 new_price int not null,
 start_date1 nvarchar(30) not null,
 expixy_date nvarchar(30) not null,
-id_product int not null)
+id_product text not null)
 
 alter table discounts add constraint pk_discounts primary key (code)
 
 create table country
-(id int not null,
+(id text not null,
 name nvarchar(59) not null)
 
 alter table country add constraint pk_country primary key (id)
 
 create table manufacturer
-(id int not null,
+(id text not null,
 name nvarchar(59) not null,
 phone text not null,
-id_country int not null)
+id_country text not null)
 
 alter table manufacturer add constraint pk_manufacturer primary key (id)
 
 create table category
-(id int not null,
+(id text not null,
 name nvarchar(30) not null)
 
 alter table category add constraint pk_category primary key (id)
 
 create table order_list
-(id int not null primary key,
-id_order int not null, 
-id_product int not null,
+(id text not null primary key,
+id_order text not null, 
+id_product text not null,
 quantity nvarchar(30) not null)
 
 create table order1
-(id int not null,
-id_customer int not null,
-id_status int not null,
-id_warehouse int not null)
+(id text not null,
+id_customer text not null,
+date_order datetime not null,
+id_status text not null,
+id_warehouse text not null)
 
 alter table order1 add constraint pk_order primary key (id)
 
 create table order_status
-(id int not null,
+(id text not null,
 status nvarchar(30) not null)
 
 alter table order_status add constraint pk_status primary key (id)
 
 create table warehouse
-(id int not null,
+(id text not null,
 street nvarchar(30) not null,
 house int not null)
 
 alter table warehouse add constraint pk_warehouse primary key (id)
 
 create table province
-(id int not null, 
+(id text not null, 
 name nvarchar(30) not null)
 
 alter table province add constraint pk_province primary key (id)
 
 create table city
-(id int not null,
+(id text not null,
 name nvarchar(30) not null,
-id_province int not null)
+id_province text not null)
 
 alter table city add constraint pk_city primary key (id)
 
 create table basket
-(id int not null,
+(id text not null,
 id_customer int not null,
 date_added datetime not null,
-id_product int not null,
+id_product text not null,
 quantity nvarchar(30) not null)
 
 alter table basket add constraint pk_basket primary key (id)
 
 create table customer
-(id int not null,
+(id text not null,
 first_name nvarchar(30) not null,
 middle_name nvarchar(30) not null,
 last_name nvarchar(30) not null,
@@ -111,7 +112,7 @@ password1 nvarchar(30) not null)
 alter table customer add constraint pk_customer primary key (id)
 
 create table address1
-(id int not null,
+(id text not null,
 id_customer int not null,
 id_city int not null,
 street nvarchar(30) not null,
@@ -121,17 +122,17 @@ flat int not null)
 alter table address1 add constraint pk_address primary key (id)
 
 create table review
-(id int not null,
-id_product int not null,
+(id text not null,
+id_product text not null,
 date_review datetime not null,
 rating int not null,
 text1 nvarchar(100) not null,
-id_customer int not null)
+id_customer text not null)
 
 alter table review add constraint pk_review primary key (id)
 
 create table bank
-(id int not null,
+(id text not null,
 name nvarchar(30) not null,
 street nvarchar(30) not null,
 house int not null)
@@ -139,9 +140,9 @@ house int not null)
 alter table bank add constraint pk_bank primary key (id)
 
 create table payment
-(id int not null,
-id_customer int not null,
-id_bank int not null,
+(id text not null,
+id_customer text not null,
+id_bank text not null,
 id_order int not null,
 price int not null,
 payment_date datetime not null)

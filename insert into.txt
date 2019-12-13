@@ -69,7 +69,7 @@ values('prod_34','man_3','cat_4','Modern','LDSP16mm','900','550','400','1135')
 insert into product
 values('prod_35','man_3','cat_4','Bridgh','clen','890','440','490','1245')
 insert into product
-values('prod_36','man_4','cat_4','Vega','LDSP18mm','760','470','600,'2340')
+values('prod_36','man_4','cat_4','Vega','LDSP18mm','760','470','600','2340')
 insert into product
 values('prod_37','man_4','cat_4','GS-102','sosna','950','530','620','2430')
 insert into product
