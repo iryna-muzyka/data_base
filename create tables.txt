@@ -17,7 +17,6 @@ price nvarchar(30) not null)
 
 alter table product add constraint pk_product primary key (id)
 
-
 create table discounts 
 (code int not null, 
 new_price int not null,
@@ -66,8 +65,6 @@ create table order_status
 status nvarchar(30) not null)
 
 alter table order_status add constraint pk_status primary key (id)
-
-
 
 create table warehouse
 (id int not null,

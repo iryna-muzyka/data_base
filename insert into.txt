@@ -100,7 +100,6 @@ insert into product
 values('prod_50','man_4','cat_5','Cruis','LDSP','1334','811','404','2290')
 
 
-
 insert into discounts
 values('dis_1', '317', '26.11.2019', '29.11.2019', 'prod_1')
 insert into discounts
@@ -256,7 +255,6 @@ insert into order1
 values('ord_19', 'cus_16', '17/12/19', '01', 'wareh_4')
 
 
-
 insert into order_status
 values('01', 'V ochikuvanni')
 insert into order_status
@@ -279,7 +277,6 @@ insert into warehouse
 values('wareh_3', 'Gorodotska', '85')
 insert into warehouse
 values('wareh_4', 'Pasichna', '12')
-
 
 
 insert into province
@@ -328,8 +325,6 @@ insert into province
 values('prov_22', 'Chernivetska')
 insert into province
 values('prov_23', 'Chernigivska')
-
-
 
 
 insert into city
@@ -416,53 +411,6 @@ insert into city
 values('city_41', 'Chernigiv', 'prov_23')
 
 
-
-insert into basket
-values('bask_1', 'cus_1', '08/12/2019', 'prod_4', '6')
-insert into basket
-values('bask_2', 'cus_17', '08/12/2019', 'prod_6', '8')
-insert into basket
-values('bask_3', 'cus_18', '08/12/2019', 'prod_3', '4')
-insert into basket
-values('bask_4', 'cus_19', '08/12/2019', 'prod_8', '1')
-insert into basket
-values('bask_5', 'cus_22', '08/12/2019', 'prod_14', '1')
-insert into basket
-values('bask_6', 'cus_13', '08/12/2019', 'prod_24', '1')
-insert into basket
-values('bask_7', 'cus_14', '09/12/2019', 'prod_8', '1')
-insert into basket
-values('bask_8', 'cus_15', '09/12/2019', 'prod_5', '1')
-insert into basket
-values('bask_9', 'cus_18', '09/12/2019', 'prod_2', '6')
-insert into basket
-values('bask_10', 'cus_21', '09/12/2019', 'prod_32', '1')
-insert into basket
-values('bask_11', 'cus_20', '09/12/2019', 'prod_41', '1')
-insert into basket
-values('bask_12', 'cus_3', '09/12/2019', 'prod_46', '1')
-insert into basket
-values('bask_13', 'cus_5', '10/12/2019', 'prod_47', '1')
-insert into basket
-values('bask_14', 'cus_7', '10/12/2019', 'prod_48', '1')
-insert into basket
-values('bask_15', 'cus_9', '10/12/2019', 'prod_1', '8')
-insert into basket
-values('bask_16', 'cus_10', '10/12/2019', 'prod_4', '15')
-insert into basket
-values('bask_17', 'cus_11', '10/12/2019', 'prod_5', '20')
-insert into basket
-values('bask_18', 'cus_12', '10/12/2019', 'prod_9', '13')
-insert into baske
-values('bask_19', 'cus_16', '10/12/2019', 'prod_11', '1')
-insert into basket
-values('bask_20', 'cus_23', '10/12/2019', 'prod_33', '1')
-insert into basket
-values('bask_21', 'cus_13', '11/12/2019', 'prod_22', '1')
-insert into basket
-values('bask_22', 'cus_14', '11/12/2019', 'prod_49', '1')
-insert into basket
-values('bask_23', 'cus_16', '11/12/2019', 'prod_14', '1')
 
 insert into basket
 values('bask_1', 'cus_1', '08/12/2019', 'prod_4', '6')
