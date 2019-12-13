@@ -67,8 +67,6 @@ status nvarchar(30) not null)
 
 alter table order_status add constraint pk_status primary key (id)
 
-
-
 create table warehouse
 (id int not null,
 street nvarchar(30) not null,
@@ -89,37 +87,6 @@ id_province int not null)
 
 alter table city add constraint pk_city primary key (id)
 
-<<<<<<< HEAD
-create table review
-(id int not null,
-id_product int not null,
-date_review datetime not null,
-rating int not null,
-text1 nvarchar(100) not null,
-id_customer int not null)
-
-alter table review add constraint pk_review primary key (id)
-
-create table bank
-(id int not null,
-name nvarchar(30) not null,
-street nvarchar(30) not null,
-house int not null)
-
-alter table bank add constraint pk_bank primary key (id)
-
-create table payment
-(id int not null,
-id_customer int not null,
-id_bank int not null,
-id_order int not null,
-price int not null,
-payment_date datetime not null)
-
-alter table payment add constraint pk_payment primary key (id)
-
-=======
->>>>>>> 3acff51ab9dff6094f893ba7884bc35692920e1e
 create table basket
 (id int not null,
 id_customer int not null,
@@ -151,4 +118,32 @@ street nvarchar(30) not null,
 house int not null,
 flat int not null)
 
+alter table address1 add constraint pk_address primary key (id)
 
+create table review
+(id int not null,
+id_product int not null,
+date_review datetime not null,
+rating int not null,
+text1 nvarchar(100) not null,
+id_customer int not null)
+
+alter table review add constraint pk_review primary key (id)
+
+create table bank
+(id int not null,
+name nvarchar(30) not null,
+street nvarchar(30) not null,
+house int not null)
+
+alter table bank add constraint pk_bank primary key (id)
+
+create table payment
+(id int not null,
+id_customer int not null,
+id_bank int not null,
+id_order int not null,
+price int not null,
+payment_date datetime not null)
+
+alter table payment add constraint pk_payment primary key (id)

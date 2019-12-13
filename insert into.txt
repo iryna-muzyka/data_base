@@ -464,7 +464,6 @@ values('bask_22', 'cus_14', '11/12/2019', 'prod_49', '1')
 insert into basket
 values('bask_23', 'cus_16', '11/12/2019', 'prod_14', '1')
 
-<<<<<<< HEAD
 
 insert into review
 values('rv_1', 'prod_1', '14/12/2019', '9', 'Duzhe zadovolena zamovlenniam', 'cus_1')
@@ -490,6 +489,7 @@ insert into review
 values('rv_11', 'prod_38', '18/12/2019', '7', 'Dostavka tryvala 3 dni', 'cus_13')
 insert into review
 values('rv_12', 'prod_18', '18/12/2019', '10', 'Vysshee kachestvo', 'cus_15')
+
 
 insert into payment
 values('pay_1', 'cus_1', 'bank_1', 'ord_1', '3475', '05/12/2019')
@@ -530,6 +530,7 @@ values('pay_18', 'cus_15', 'bank_2', 'ord_18', '9652', '17/12/2019')
 insert into payment
 values('pay_19', 'cus_16', 'bank_1', 'ord_19', '2290', '17/12/2019')
 
+
 insert into bank
 values('bank_1', 'PrivatBank', 'Gorodotska', '143')
 insert into bank
@@ -542,55 +543,6 @@ insert into bank
 values('bank_5', 'Alfa Bank', 'Geroiv Upa', '85')
 insert into bank
 values('bank_6', 'Schasliviy Bank', 'Gretska', '96')
-
-=======
->>>>>>> 3acff51ab9dff6094f893ba7884bc35692920e1e
-insert into basket
-values('bask_1', 'cus_1', '08/12/2019', 'prod_4', '6')
-insert into basket
-values('bask_2', 'cus_17', '08/12/2019', 'prod_6', '8')
-insert into basket
-values('bask_3', 'cus_18', '08/12/2019', 'prod_3', '4')
-insert into basket
-values('bask_4', 'cus_19', '08/12/2019', 'prod_8', '1')
-insert into basket
-values('bask_5', 'cus_22', '08/12/2019', 'prod_14', '1')
-insert into basket
-values('bask_6', 'cus_13', '08/12/2019', 'prod_24', '1')
-insert into basket
-values('bask_7', 'cus_14', '09/12/2019', 'prod_8', '1')
-insert into basket
-values('bask_8', 'cus_15', '09/12/2019', 'prod_5', '1')
-insert into basket
-values('bask_9', 'cus_18', '09/12/2019', 'prod_2', '6')
-insert into basket
-values('bask_10', 'cus_21', '09/12/2019', 'prod_32', '1')
-insert into basket
-values('bask_11', 'cus_20', '09/12/2019', 'prod_41', '1')
-insert into basket
-values('bask_12', 'cus_3', '09/12/2019', 'prod_46', '1')
-insert into basket
-values('bask_13', 'cus_5', '10/12/2019', 'prod_47', '1')
-insert into basket
-values('bask_14', 'cus_7', '10/12/2019', 'prod_48', '1')
-insert into basket
-values('bask_15', 'cus_9', '10/12/2019', 'prod_1', '8')
-insert into basket
-values('bask_16', 'cus_10', '10/12/2019', 'prod_4', '15')
-insert into basket
-values('bask_17', 'cus_11', '10/12/2019', 'prod_5', '20')
-insert into basket
-values('bask_18', 'cus_12', '10/12/2019', 'prod_9', '13')
-insert into baske
-values('bask_19', 'cus_16', '10/12/2019', 'prod_11', '1')
-insert into basket
-values('bask_20', 'cus_23', '10/12/2019', 'prod_33', '1')
-insert into basket
-values('bask_21', 'cus_13', '11/12/2019', 'prod_22', '1')
-insert into basket
-values('bask_22', 'cus_14', '11/12/2019', 'prod_49', '1')
-insert into basket
-values('bask_23', 'cus_16', '11/12/2019', 'prod_14', '1')
 
 
 insert into address1
@@ -688,7 +640,3 @@ values('cus_22', 'Kostuk', 'Iryna', 'Dmytrivna', 'woman', '16/03/1995', 'mmussya
 insert into customer
 values('cus_23', 'Ravlyk', 'Sviatoslav', 'Mukolayovich', 'man', '19/11/1983', 'sviatyk56@gmail.com', '+380630295413', 'sviatik354')
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 3acff51ab9dff6094f893ba7884bc35692920e1e

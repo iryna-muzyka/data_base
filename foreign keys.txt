@@ -58,8 +58,6 @@ add constraint fk_product_basket
 foreign key (id_product)
 references product(id)
 
-<<<<<<< HEAD
-
 alter table payment
 add constraint fk_customer_payment
 foreign key (id_customer)
@@ -75,8 +73,6 @@ add constraint fk_order_payment
 foreign key (id_order)
 references order1(id)
 
-=======
->>>>>>> 3acff51ab9dff6094f893ba7884bc35692920e1e
 alter table review
 add constraint fk_customer_review
 foreign key (id_customer)
@@ -87,7 +83,4 @@ add constraint fk_product_review
 foreign key (id_product)
 references product(id)
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 3acff51ab9dff6094f893ba7884bc35692920e1e
