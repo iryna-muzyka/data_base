@@ -76,3 +76,18 @@ where middle_name=’Vladyslav’
 SELECT id, name, price 
 FROM product 
 WHERE price NOT BETWEEN 365 AND 455
+
+select id, name, price
+from product
+where price between 2000 and 4000 order by price desc
+
+select district name 
+from bank
+
+select id, name, street,house
+from bank 
+WHERE (name like'A&')
+
+select id, name, house
+FROM bank
+where street = 'Korotka' 
